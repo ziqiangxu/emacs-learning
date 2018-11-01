@@ -1,4 +1,5 @@
 (provide 'init-generic)
+;; 使用ELPA镜像
 (require 'melpa)
 (fset 'yes-or-no-p 'y-or-n-p)
 ;;(setq mouse-yan-at-point t)
@@ -20,15 +21,8 @@
 ;; 关闭启动帮助页面
 (setq inhibit-splash-screen 1)
 
-;;打开daryl-test.el
-(defun load-daryl-test()
-  (interactive)
-  (find-file "~/elisp/daryl-test.el"))
-;; 将load-daryl-test函数绑定到f3按键
-(global-set-key (kbd "<f3>") 'load-daryl-test)
-
-;; use the test.el
-(require 'daryl-test)
+;; 不生成备份文件
+(setq backup-directory-alist (quote (("." . "~/.backups"))))
 
 ;; 关闭系统的自动缩进
 ;;(electric-indent-mode -1)
@@ -53,7 +47,6 @@
 ;;默认全屏
 ;;(setq initial-frame-alist '((fullscreen . maximized)))
 
-(setq auto-mode-alist
-      (append
-       '(("\\.go\\'" . go-mode))
-       auto-mode-alist))
+
+;; --- 引入测试代码的文件 ---
+(require 'daryl-test)
