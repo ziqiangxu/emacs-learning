@@ -65,8 +65,8 @@
 ;; 开启全局自动补全功能
 (global-company-mode 1)
 
-
-
+;; 开启对语言的自动补全支持
+(require 'init-language-company)
 
 ;; --- 引入测试代码的文件 ---
-(require 'daryl-test)
+;; (require 'daryl-test)
