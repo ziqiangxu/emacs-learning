@@ -13,10 +13,10 @@
    (normal-top-level-add-subdirs-to-load-path)))
 
 ;; 将elisp添加到加载目录，自动递归扫描所有目录
-(add-subdirs-to-load-path "~/elsp")
+(add-subdirs-to-load-path "~/daryl-emacs")
 
-;;加载init-generic包(我的放在~/elsp目录，因为已经递归扫描了，所以可以被引入)
-;; ~/elsp/init-generic.el
+;;加载init-generic包(我的放在~/daryl-emacs目录，因为已经递归扫描了，所以可以被引入)
+;; ~/daryl-emacs/init-generic.el
 (require 'init-generic)
 
 ;; 后面的内容是我的emacs自带的内容
