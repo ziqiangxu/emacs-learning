@@ -1,4 +1,4 @@
-(provide 'golang-company)
+(provide 'init-golang)
 ;; 配置对golang的支持
 (setq auto-mode-alist
       (append

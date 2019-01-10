@@ -1,0 +1,3 @@
+[submodule "lazycat-emacs"]
+	path = lazycat-emacs
+	url = git@github.com:manateelazycat/lazycat-emacs.git
