@@ -52,7 +52,7 @@
        (require 'init-eldoc)
        (require 'init-doxymacs)
        (require 'init-yasnippet)
-       (require 'init-company-mode)
+;;       (require 'init-company-mode)
        ;; (require 'init-lsp)
        (require 'init-package)
        (require 'init-smooth-scrolling)

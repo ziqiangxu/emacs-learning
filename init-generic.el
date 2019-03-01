@@ -14,7 +14,8 @@
 ;; 使用ELPA镜像
 (require 'melpa)
 
-(require 'init-lazycat-emacs)
+;;(require 'init-lazycat-emacs)
+(require 'daryl-init)
 
 ;; 开启全局自动补全功能
 ;;(global-company-mode 1)
