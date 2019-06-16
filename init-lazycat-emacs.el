@@ -1,3 +1,5 @@
+;; 使用lazycat-emacs的配置
+
 ;; 定义一些启动目录，方便下次迁移修改
 (defvar lazycat-emacs-root-dir (file-truename "~/lazycat-emacs/site-lisp"))
 (defvar lazycat-emacs-config-dir (concat lazycat-emacs-root-dir "/config"))

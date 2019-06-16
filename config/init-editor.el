@@ -1,6 +1,9 @@
 ;;编辑器的通用设置
 (provide 'init-editor)
 
+;; 开启全局自动补全功能
+;;(global-company-mode 1)
+
 ;; 备份相关
 ;; 不生成备份文件
 (setq backup-directory-alist (quote (("." . "~/.backups"))))
