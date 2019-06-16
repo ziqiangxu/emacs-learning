@@ -1,5 +1,5 @@
 ;;编辑器的通用设置
-(provide 'init-theme)
+(provide 'init-editor)
 
 ;; 备份相关
 ;; 不生成备份文件
@@ -11,7 +11,7 @@
 
 ;; --- 鼠标相关 ---
 ;; 关闭光标闪烁
-(blink-cursor-mode -1)
+;;(blink-cursor-mode -1)
 
 ;; 鼠标样式切换为条
 (setq-default cursor-type 'bar)
