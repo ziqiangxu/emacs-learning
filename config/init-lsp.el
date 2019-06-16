@@ -1,5 +1,7 @@
 ;; 对lsp进行配置
 ;; lsp-mode
+(provide 'init-lsp)
+	 
 (require 'lsp-mode)
 
 ;; 使用prog-mode-hook则可以自动判断所编辑的文件
