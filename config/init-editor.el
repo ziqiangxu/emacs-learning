@@ -11,6 +11,8 @@
 ;;关闭自动备份
 (setq make-backup-files nil)      
 
+;; 关闭警报声
+(setq ring-bell-function 'ignore)
 
 ;; --- 鼠标相关 ---
 ;; 关闭光标闪烁
