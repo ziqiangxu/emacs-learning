@@ -19,9 +19,9 @@
 ;; >>> Rust
 (require 'rust-mode)
 (setq lsp-rust-server 'rust-analyzer)
-(require 'rust-mode)
 ;; <<<
 
 ;; lsp-ui
 (require 'lsp-ui)
 (add-hook 'lsp-mode-hook 'lsp-ui-mode)
+

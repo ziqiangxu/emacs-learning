@@ -9,15 +9,13 @@
      (require 'package)
      (package-initialize)
      (setq package-archives '(("gnu"  . "https://elpa.gnu.org/packages/")
-;;			      ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
-			      ("melpa" . "http://elpa.emacs-china.org/melpa-stable/"))))
+			      ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")
+			      ("melpa-cn" . "http://elpa.emacs-china.org/melpa/"))))
+;;			      ("melpa-cn-stable" . "http://elpa.emacs-china.org/melpa-stable/"))))
 ;;			      ("melpa" . "https://melpa.org/packages/"))))
-;;			      ("melpa" . "https://stable.melpa.org/packages/"))))
-
-;;("gnu"   . "https://elpa.emacs-china.org/gnu/")
-
-
+;;			      ("melpa-stable" . "https://stable.melpa.org/packages/"))))
 ;; 注意 elpa.emacs-china.org 是 Emacs China 中文社区在国内搭建的一个 ELPA 镜像
+
 
  ;; cl - Common Lisp Extension
  (require 'cl)
