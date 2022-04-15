@@ -2,6 +2,8 @@
 (provide 'init-daryl-emacs)
 (require 'init-editor)
 (require 'init-lsp)
+(require 'evil)
+(evil-mode 1)
 
 ;;(require 'lazycat-theme)
 ;;(require 'lazy-set-key)

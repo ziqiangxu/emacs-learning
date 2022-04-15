@@ -9,5 +9,5 @@
 (require 'init-daryl-emacs)
 
 ;; --- 引入测试代码的文件 ---
-(require 'daryl-test)
+;;(require 'daryl-test)
 
